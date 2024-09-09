@@ -35,6 +35,13 @@
             "name": "5-lint-test",
             "console": "integratedTerminal",
             "program": "${workspaceFolder}/5-lint-test/index.mjs"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "6-type-checker",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/6-type-checker/index.mjs"
         }
     ]
 }
