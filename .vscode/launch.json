@@ -1,42 +1,40 @@
 {
-	// Use IntelliSense to learn about possible attributes.
-	// Hover to view descriptions of existing attributes.
-	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"type": "node",
-			"request": "launch",
-			"name": "TestCurlineInsert",
-			"skipFiles": [
-				"<node_internals>/**"
-			],
-			"console": "integratedTerminal",
-			"program": "${workspaceFolder}/1-insert-param/curline-insert.mjs",
-			"resolveSourceMapLocations": [
-				"${workspaceFolder}/**",
-			]
-		},
-		{
-			"type":"node",
-			"request": "launch",
-			"name": "2-auto-import",
-			"console": "integratedTerminal",
-			"program": "${workspaceFolder}/2-add-import-and-call/index.mjs"
-		},
-		{
-			"type":"node",
-			"request": "launch",
-			"name": "3-auto-intl",
-			"console": "integratedTerminal",
-			"program": "${workspaceFolder}/3-auto-intl/index.mjs"
-		},
-		{
-			"type":"node",
-			"request": "launch",
-			"name": "4-auto-type-doc",
-			"console": "integratedTerminal",
-			"program": "${workspaceFolder}/4-auto-type-doc/index.mjs"
-		},
-	]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "TestCurlineInsert",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/1-insert-param/curline-insert.mjs"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "2-auto-import",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/2-add-import-and-call/index.mjs"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "3-auto-intl",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/3-auto-intl/index.mjs"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "4-auto-type-doc",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/4-auto-type-doc/index.mjs"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "5-lint-test",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/5-lint-test/index.mjs"
+        }
+    ]
 }
