@@ -8,12 +8,6 @@ const templateName = process.argv[2]
 
 if (templateName) {
 	const __dirname = path.dirname( url.fileURLToPath(import.meta.url) )
-	// const launch = JSON.parse(
-	// 	fs.readFileSync(
-	// 		path.join(__dirname, '.vscode', 'launch.json')
-	// 	)
-	// )
-	// console.log(launch)
 	launch.configurations.push({	
 		"type":"node",
 		"request": "launch",
