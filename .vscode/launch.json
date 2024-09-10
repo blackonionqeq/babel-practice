@@ -49,6 +49,13 @@
             "name": "7-mangle-compress",
             "console": "integratedTerminal",
             "program": "${workspaceFolder}/7-mangle-compress/index.mjs"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "8-module-traverse",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/8-module-traverse/index.mjs"
         }
     ]
 }
